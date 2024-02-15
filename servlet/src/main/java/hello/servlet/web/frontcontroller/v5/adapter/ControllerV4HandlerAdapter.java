@@ -30,7 +30,7 @@ public class ControllerV4HandlerAdapter implements MyHandlerAdapter {
 
         ModelView mv = new ModelView(viewName);
         mv.setModel(model);
-        
+
         return mv;
     }
 
